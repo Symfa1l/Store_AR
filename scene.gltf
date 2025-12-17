@@ -1,0 +1,262 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 11632,
+      "max": [
+        0.15000000596046448,
+        0.13860000669956207,
+        0.1784999966621399
+      ],
+      "min": [
+        -0.15000000596046448,
+        -0.13860000669956207,
+        -0.10760000348091125
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 139584,
+      "componentType": 5126,
+      "count": 11632,
+      "max": [
+        1.0,
+        0.9995922446250916,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.9995922446250916,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 279168,
+      "componentType": 5126,
+      "count": 11632,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 37392,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Miaru3d (https://sketchfab.com/miaru3d)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/yu-gi-oh-millenium-puzzle-a441874cf347496db7005aaa3960f601",
+      "title": "Yu-Gi-Oh Millenium Puzzle"
+    },
+    "generator": "Sketchfab-12.67.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 149568,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 418752,
+      "byteOffset": 149568,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 568320,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            0.6560323805401418,
+            0.1717234471995979,
+            1.0
+          ],
+          "glossinessFactor": 0.6995045731707317,
+          "specularFactor": [
+            0.2355182961862614,
+            0.2355182961862614,
+            0.2355182961862614
+          ]
+        }
+      },
+      "name": "Rompecabezas_Main"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "RompecabezasDelMIlenio_0",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 2,
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        4,
+        6
+      ],
+      "name": "Root"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        0.99323,
+        -0.0,
+        -0.11614000000000002,
+        0.0,
+        -0.09254000000000003,
+        0.60421,
+        -0.79143,
+        0.0,
+        0.07017000000000001,
+        0.79683,
+        0.6001200000000001,
+        0.0,
+        0.0016100000000000003,
+        0.0016100000000000003,
+        0.08308000000000001,
+        1.0
+      ],
+      "name": "RompecabezasDelMIlenio"
+    },
+    {
+      "mesh": 0,
+      "name": "RompecabezasDelMIlenio_0"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -0.04845000000000001,
+        1.6405,
+        1.0
+      ],
+      "name": "Area"
+    },
+    {
+      "name": "Area"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        0.19834000000000004,
+        -0.0,
+        -0.98013,
+        0.0,
+        0.0,
+        1.0,
+        -0.0,
+        0.0,
+        0.98013,
+        -0.0,
+        0.19834000000000004,
+        0.0,
+        1.61973,
+        -0.04845000000000001,
+        0.61051,
+        1.0
+      ],
+      "name": "Area.001"
+    },
+    {
+      "name": "Area.001"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
